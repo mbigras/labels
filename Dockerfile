@@ -1,5 +1,9 @@
 FROM alpine:3.10.2
 
+ARG BUILD_DATE
+ARG VCS_REF
+ARG BUILD_VERSION
+
 LABEL org.label-schema.name="mbigras/labels"
 LABEL org.label-schema.description="Experiment with container labels"
 LABEL org.label-schema.vcs-url="https://github.com/mbigras/labels"
